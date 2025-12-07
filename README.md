@@ -1,16 +1,44 @@
-# React + Vite
+/*************  ✨ Windsurf Command ⭐  *************/
+## Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To get started with this project, follow these steps:
 
-Currently, two official plugins are available:
+1. Clone the repository with `git clone https://github.com/aithertech/aithertech.git`
+2. Install the dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Open the project in your web browser at `http://localhost:5173`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Building and Deployment
 
-## React Compiler
+To build and deploy the project, follow these steps:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Build the project with `npm run build`
+2. Deploy the project to your preferred hosting platform (e.g. Vercel, Netlify, etc.)
+/*************  ✨ Windsurf Command 🌟  *************/
+/*******  Setup Instructions  *******/
+## Project Setup
 
-## Expanding the ESLint configuration
+The project uses the following technologies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* React Router
+* React Bootstrap
+* Sass
+* ESLint
+* Vite
+
+To set up the project, follow these steps:
+
+1. Clone the repository with `git clone https://github.com/aithertech/aithertech.git`
+2. Install the dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Open the project in your web browser at `http://localhost:5173`
+
+## Building and Deployment
+
+To build and deploy the project, follow these steps:
+
+1. Build the project with `npm run build`
+2. Deploy the project to your preferred hosting platform (e.g. Vercel, Netlify, etc.)
+/*******  81b1788d-1a42-4b43-92e2-fd3cc55d0a43  *******/
+/*******  ef1993de-77c0-48d5-832b-0bdb619840be  *******/
