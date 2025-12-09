@@ -3,7 +3,7 @@ import { Form, Card } from "react-bootstrap";
 function SignIn() {
   return (
     <Card>
-        <Card.Header>Sign In</Card.Header>
+        <Card.Header>Sign Up</Card.Header>
       <Card.Body>
         <Form>
           <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -16,9 +16,6 @@ function SignIn() {
           </Form.Group>
           <button type="submit" className="btn btn-primary">
             Sign In
-          </button>
-          <button type="button" className="btn btn-link">            
-            <a href="/signup">Sign Up</a>
           </button>
         </Form>
       </Card.Body>
