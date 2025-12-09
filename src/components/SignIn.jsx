@@ -11,6 +11,7 @@ function SignIn() {
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
+        <button type="submit" className="btn btn-primary">Sign In</button>
     </Form>
   );
 }

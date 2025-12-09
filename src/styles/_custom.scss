@@ -1,0 +1,8 @@
+.layout-center {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    height          : 100vh;
+    background: #00747f linear-gradient(135deg, #00747f 0%,#fff 50%, #002246 100%);
+}
