@@ -1,4 +1,3 @@
-/*************  ✨ Windsurf Command ⭐  *************/
 ## Getting Started
 
 To get started with this project, follow these steps:
@@ -40,5 +39,3 @@ To build and deploy the project, follow these steps:
 
 1. Build the project with `npm run build`
 2. Deploy the project to your preferred hosting platform (e.g. Vercel, Netlify, etc.)
-/*******  81b1788d-1a42-4b43-92e2-fd3cc55d0a43  *******/
-/*******  ef1993de-77c0-48d5-832b-0bdb619840be  *******/
