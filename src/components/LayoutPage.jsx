@@ -1,13 +1,13 @@
 import { Outlet } from 'react-router-dom'
+import { Header } from './Header'
 
 const LayoutCenter = () => {
   return (
    <>
-   <header>Header</header>
-     <div className="">
+   <Header />
+     <main className="container">
          <Outlet />
-     </div>
-     <footer>Footer Section</footer>
+     </main>
    </>
   )
 }

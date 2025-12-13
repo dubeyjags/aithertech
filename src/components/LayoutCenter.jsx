@@ -1,9 +1,14 @@
 import { Outlet } from 'react-router-dom'
-
+import logo from '../assets/logo.png';
 const LayoutCenter = () => {
   return (
     <div className="layout-center">
+      <div className="midContainer bg-white p-4 rounded-4 shadow-2xl" >
+        <div className="logo-container text-center mb-4">
+          <img src={logo} alt="Logo" className="logo-image" width={140} />
+        </div>
         <Outlet />
+      </div>
     </div>
   )
 }

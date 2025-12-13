@@ -1,26 +1,39 @@
-import { Form, Card } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+function SignUp() {
+    const navigate = useNavigate();
 
-function SignIn() {
+  const SignUp = (e) => {
+    e.preventDefault();
+    navigate("/lists");
+  };
   return (
-    <Card>
-        <Card.Header>Sign Up</Card.Header>
-      <Card.Body>
         <Form>
+           <div className="text-center">
+            <p>Join our platform to manage complaints</p>
+          </div>
+          <Form.Group className="mb-3" controlId="formGroupUserType">
+            <Form.Check inline type="radio" label="Customer" name="userType" id="customerRadio" />
+            <Form.Check inline type="radio" label="Dealer" name="userType" id="dealerRadio" />
+            <Form.Check inline type="radio" label="Engineer" name="userType" id="engineerRadio" />
+          </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control type="email" placeholder="Email Address" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formGroupMobile">
+            <Form.Control type="text" placeholder="Mobile Number" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formGroupPassword">
-            <Form.Label>Password</Form.Label>
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
-          <button type="submit" className="btn btn-primary">
-            Sign In
-          </button>
+          <Form.Group className="mb-3" controlId="formGroupConfirmPassword">
+            <Form.Control type="password" placeholder="Confirm Password" />
+          </Form.Group>
+          <button type="submit" onClick={SignUp} className="btn btn-primary btn-block w-100 mb-3">Sign Up</button>
+          <div className="text-center"> Already have an account? {" "}  <Link to="/signin">Sign in</Link> </div>
         </Form>
-      </Card.Body>
-    </Card>
   );
 }
 
-export default SignIn;
+export default SignUp;

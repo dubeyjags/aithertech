@@ -1,8 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+      font-family:  "Open Sans", Arial, Helvetica, sans-serif;
+      font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
 .layout-center {
     display         : flex;
     flex-direction  : column;
     justify-content : center;
     align-items     : center;
     height          : 100vh;
-    background: #00747f linear-gradient(to right bottom, #00747f 0%,#fff 50%, #002246 100%);
+    background: #00747f linear-gradient(to right bottom, #397c9c 0%,#fff 50%, #28406f 100%);
+}
+.midContainer{
+    width: 400px;
+    max-width: 90%;
 }
